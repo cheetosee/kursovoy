@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 992px) {
+
+    .navigation-links{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .icons-footer img{
+        opacity: 1;
+    }
+    .icons-footer img{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 786px) {
+    .icons-footer img{
+        width: 60px; 
+    }
+    .icons-footer img{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main{
+        background: url(page/minibgcont.jpg);
+        background-repeat: no-repeat;  
+        background-position: top ; 
+        width: 100%;
+        height: 100%;
+    }
+    .kurs-btn a{
+        width: 250px;
+        height: 40px;
+        line-height: 2.2;
+        font-size: 18px;
+    }
+    .input-footer{
+        width: 230px;
+        height: 40px;
+    }
+    .submit-footer{
+        height: 40px;
+        line-height: 0;
+    }
+    .burger{
+        text-align: right;
+    }
+    .content-text-7{
+        font-size: 24px;
+    }
+    .icons-footer img{
+        margin-top: 50px;
+        width: 50px; 
+    }
+    #mainout{
+        margin-left: 90%;
+    }
+}

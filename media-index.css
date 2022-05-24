@@ -1,0 +1,176 @@
+@media screen and (max-width: 1200px) {
+    .text-opis{
+        padding-left: 100px;
+    }
+    .content-text-1{
+        font-size: 36px;
+        line-height: 1;
+    }
+    .content-text-2{
+        font-size: 20px;
+        line-height: 1;
+    }
+}
+@media screen and (max-width: 992px) {
+    .kompimg{
+        display: none;
+    }
+    .text-opis{
+        padding: 0;
+    }
+    .content-text-1{
+        line-height: 2;
+        font-size: 42px;
+    }
+    .content-text-2{
+        line-height: 1.5;
+        font-size: 22px;
+    }
+    .main {
+        background: url(page/mainbgsm.jpg);
+        background-repeat: no-repeat;  
+        background-position: top right; 
+        /* background-attachment: fixed; */
+        width: 100%;
+        height: 980px; 
+    }
+    .content-text-3{
+        font-size: 36px;
+    }
+    .card-navik > div{
+        margin-top: 100px;
+        text-align: center;
+        padding: 0 200px 0 200px;
+    }
+    .content-block-3{
+        margin-top: 100px;
+    }
+    .logo-brand > div{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .navigation-links{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .icons-footer img{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header-text{
+        font-size: 50px;
+    }
+    .logo{
+        text-align: left;
+    }
+    .burger{
+        text-align: center;
+    }
+    
+    .card-navik > div{
+        margin-top: 100px;
+        text-align: center;
+        padding: 0 100px 0 100px;
+    }
+    .content-text-3{
+        font-size: 28px;
+        transform: translateY(10%);
+    }
+    .ellipse{
+        margin-right: 20px;
+    }
+    .content-text-7{
+        font-size: 28px;
+    }
+    .kurs-btn a{
+        width: 300px;
+        height: 50px;
+        line-height: 2.5;
+        font-size: 20px;
+    }
+    #mainout{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main{
+        background: url(page/bgminimain.jpg);
+        background-repeat: no-repeat;  
+        background-position: top right; 
+        /* background-attachment: fixed; */
+        width: 100%;
+        height: 980px; 
+        margin: 0;
+    }
+    .header-text{
+        font-size: 30px;
+        line-height: 140%;
+        margin-top: 30px;
+    }
+    .header-kurs-btn p{
+        margin: 0;
+        font-size: 28px;
+    }
+    .logo-brand img{
+        width: 80%;
+    }
+    .content-text-7{
+        font-size: 28px;
+    }
+    .content-text-3{
+        font-size: 20px;
+        transform: translateY(20%);
+    }
+    .content-text-1{
+        font-size: 28px;    
+        margin-top: -300px;
+        
+    }
+    .content-text-2{
+        font-size: 18px;
+    }
+    .content-block-2{
+        margin-top: 40px;
+    }
+    .content-text-4{
+        font-size: 14px;
+    }
+    .card-navik > div{
+        margin-top: 40px;
+        padding: 0 15px;
+    }
+    .content-block-3{
+        margin-top: 40px;
+    }
+    .content-block-4{
+        margin-top: 40px;
+    }
+    .kurs-btn a{
+        width: 250px;
+        height: 40px;
+        line-height: 2.2;
+        font-size: 18px;
+    }
+    .input-footer{
+        width: 230px;
+        height: 40px;
+    }
+    .submit-footer{
+        height: 40px;
+        line-height: 0;
+    }
+    .burger{
+        text-align: right;
+    }
+    .icons-footer img{
+
+        width: 15%; 
+    }
+    #mainout{
+        margin-left: 90%;
+    }
+}

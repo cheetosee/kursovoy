@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 992px) {
+    .navigation-links{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .icons-footer img{
+        opacity: 1;
+    }
+    .header-text-top{
+        font-size: 36px;
+        margin-top: 100px;
+    }
+    .content-block-1{
+        margin-top: 100px;
+    }
+    .content-block-1 h3{
+        font-size: 36px;
+    }
+    .t-chast, .p-chast{
+        margin-top: 70px;
+        font-size: 20px;
+    }    
+    .teoret-text, .practic-text{
+        font-size: 28px;
+    }
+    .zag-teoret, .zag-practic{
+        font-size: 22px;
+    }
+    .message {
+        width: 350px;
+        height: 555px;
+    }
+    .out{
+        width: 130px;
+        height: 30px;
+        line-height: 1.5;
+        transform: translateX(-10%);
+    
+    }
+    .inpSub{
+        width: 130px;
+        height: 30px;
+        line-height: 1.5;
+    }
+    .inputCard{
+        width: 305px;
+        height: 30px;
+    }
+    .message .inpMail{
+        margin-top: -70px;
+    }
+    .message h2{
+        width: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%) translateY(-300%);
+        position: relative;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .header-text-top{
+        font-size: 28px;
+        margin-top: 60px;
+    }
+    .header-menu{
+        margin-top: 50px;
+        font-size: 27px;
+    }
+    .header-text-bot{
+        font-size: 24px;
+        margin-top: 120px;
+    }
+    .logo{
+        text-align: left;
+    }
+    .burger{
+        text-align: right;
+    }
+    .ellipse{
+        margin-right: 20px;
+    }
+    .kurs-btn a{
+        width: 300px;
+        height: 50px;
+        line-height: 2.5;
+        font-size: 20px;
+    }
+    #mainout{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    
+    .content-text-7{
+        font-size: 28px;
+    }
+    .kurs-btn a{
+        width: 250px;
+        height: 40px;
+        line-height: 2.2;
+        font-size: 18px;
+    }
+    .input-footer{
+        width: 230px;
+        height: 40px;
+    }
+    .submit-footer{
+        height: 40px;
+        line-height: 0;
+    }
+    .burger{
+        text-align: right;
+    }
+    .icons-footer img{
+        width: 15%; 
+    }
+    #mainout{
+        margin-left: 90%;
+    }
+    .card a{
+        height: 40px;
+        line-height: 2.5;
+    }
+
+}

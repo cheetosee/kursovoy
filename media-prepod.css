@@ -1,0 +1,125 @@
+@media screen and (max-width: 992px) {
+    
+    .main {
+        background: url(page/vrem/bgpr.jpg);
+        background-repeat: no-repeat;  
+        background-position: top right; 
+        /* background-attachment: fixed; */
+        width: 100%;
+        height: 100%; 
+    }
+    .navigation-links{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .icons-footer img{
+        opacity: 1;
+    }
+    .content-text-7, .content-text-6{
+        font-size: 30px;
+    }
+    .prepod{
+        margin-right: 4px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+
+    .burger{
+        text-align: center;
+    }
+    
+    .ellipse{
+        margin-right: 20px;
+    }
+    .content-text-7{
+        font-size: 28px;
+    }
+
+    #mainout{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content-text-7, .content-text-6{
+        font-size: 20px;
+    }
+    .header-text{
+        font-size: 30px;
+        line-height: 140%;
+        margin-top: 30px;
+    }
+    .header-kurs-btn p{
+        margin: 0;
+        font-size: 28px;
+    }
+    .logo-brand img{
+        width: 80%;
+    }
+    .content-text-7{
+        font-size: 28px;
+    }
+    .your-prepods{
+        font-size: 24px;
+    }
+    .fact{
+        margin: 100px 0 -100px 0;
+    }
+    .kurs-btn a{
+        width: 250px;
+        height: 40px;
+        line-height: 2.2;
+        font-size: 18px;
+    }
+    .input-footer{
+        width: 220px;
+        height: 40px;
+    }
+    .submit-footer{
+        height: 40px;
+        line-height: 0;
+        transform: translateY(-1px);
+    }
+    .burger{
+        text-align: right;
+    }
+    .icons-footer img{
+        width: 15%; 
+    }
+    #mainout{
+        margin-left: 90%;
+    }
+    .card-prepods{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .prepod{
+        width: 100%;
+        height: 400px;
+    }
+    .prepod img{
+        display: block;
+        position: relative;
+        margin-left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        width: 100px;
+    }
+    .prepod h3{
+        top: 0;
+        left: 0;
+        transform: translateY(-70%);
+    }
+    .prepod h6{
+        top: 0;
+        font-size: 15px;
+    }
+    .content-text-7{
+        font-size: 20px;
+    }
+    .main{
+        background: url(page/vrem/minibgprep.jpg);
+    }
+}
